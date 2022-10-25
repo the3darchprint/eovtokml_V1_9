@@ -1,5 +1,5 @@
 import ezdxf
-import requests
+# import requests
 import simplekml
 import easygui 
 from pyproj import Transformer

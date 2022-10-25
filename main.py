@@ -1,6 +1,6 @@
 from PySide2.QtWidgets import QWidget, QApplication, QVBoxLayout, QPushButton, QLineEdit, QMessageBox, QHBoxLayout, QLabel  
 import sys
-import requests
+# import requests
 from PySide2.QtGui import QDesktopServices
 from PySide2.QtCore import QUrl
 import csvreader_eovpoint_to_kml
