@@ -21,7 +21,7 @@ def fromcsvtokml():
 
     for row in reader:
         # koords.append(row)
-        coords_from_csv.append([str(row[0]), int(row[1]), int(row[2])])
+        coords_from_csv.append([str(row[0]), float(row[1]), float(row[2])])
 
     wgscoords_from_coords = []
 

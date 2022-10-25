@@ -22,7 +22,7 @@ def dxflinetokml():
     for name, line in enumerate(modelspace.query('LWPOLYLINE'), start=1):
         with line.points() as points:
             for name, coords in enumerate(points):
-                linelist.append([str(name), int(coords[0]), int(coords[1])])
+                linelist.append([str(name), float(coords[0]), float(coords[1])])
 
     wgslist_from_linelist = []
 
